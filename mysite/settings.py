@@ -25,7 +25,7 @@ SECRET_KEY = 'js8u6v5%oiz=t^v#a(*a3249%d##+x(8!^4y7dfa%c+9cb!5b5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'pythonanywhere.com', 'devictory.pythonanywhere.com']
 
 
 # Application definition
@@ -121,3 +121,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
+DEBUG = True
+ALLOWED_HOSTS = []
